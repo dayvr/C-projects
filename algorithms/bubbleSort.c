@@ -23,7 +23,7 @@ int main() {
         }
     }
 
-    /* Display sorted array */
+    // Display sorted array
     printf("Sorted data: ");
     for(x = 0; x < size; x++) {
         printf("%d ", bubble[x]);
