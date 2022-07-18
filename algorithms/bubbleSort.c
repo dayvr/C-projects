@@ -1,11 +1,17 @@
 #include <stdio.h>
 
+/*
+ * Bubble Sort Algorithm: 
+ * Each array element is compared with every other element in an organized sequence. 
+ * When one value is larger (or smaller) than another, the values are swapped. 
+ */
+
 int main() {
     const int size = 7;
     int bubble[] = { 75, 40, 5, 67, 30, 14, 1 };
     int inner, outer, temp, x;
 
-    // Display original array
+    // Print original array
     printf("Original data: ");
     for(x = 0; x < size; x++) {
         printf("%d ",bubble[x]);
@@ -23,11 +29,10 @@ int main() {
         }
     }
 
-    // Display sorted array
+    // Print sorted array
     printf("Sorted data: ");
     for(x = 0; x < size; x++) {
         printf("%d ", bubble[x]);
-        // putchar('\n');
     }
     
     return(0);
