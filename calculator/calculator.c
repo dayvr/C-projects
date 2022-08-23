@@ -1,6 +1,6 @@
-// Create a calculator program that can add, subtract, multiply, and divide two numbers.
-
 #include <stdio.h>
+
+// Calculator program that can add, subtract, multiply, and divide two numbers.
 
 int main() {
     // Declare variables
