@@ -9,8 +9,10 @@ int main() {
     // Prompt user for input
     printf("Enter a number: ");
     scanf("%d", &num1);
+    
     printf("Enter an operator: ");
     scanf(" %c", &operator);
+    
     printf("Enter another number: ");
     scanf("%d", &num2);
 
