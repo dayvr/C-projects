@@ -1,0 +1,12 @@
+[submodule "calculator-app"]
+	path = calculator-app
+	url = git@github.com:dayvr/calculator-app.git
+[submodule "editor-app"]
+	path = editor-app
+	url = git@github.com:dayvr/editor-app.git
+[submodule "conversion-app"]
+	path = conversion-app
+	url = git@github.com:dayvr/conversion-app.git
+[submodule "calendar-app"]
+	path = calendar-app
+	url = git@github.com:dayvr/calendar-app.git
